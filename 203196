@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LaunchNova - Empowering Digital Innovation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">LaunchNova</div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#shop">Shop</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Launch Your Digital Future</h1>
+    <p>Order websites, domains, Starlink, and explore top-rated tech.</p>
+    <button class="btn">Get Started</button>
+  </section>
+
+  <section class="section" id="auth">
+    <h2>Sign Up / Log In</h2>
+    <div class="grid">
+      <button class="btn auth-btn" data-auth-type="email">Login with Email</button>
+      <button class="btn auth-btn" data-auth-type="social">Login with Social Media</button>
+      <button class="btn auth-btn" data-auth-type="phone">Login with Phone Number</button>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <h2>Order Services</h2>
+    <form id="orderForm">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Phone Number" required>
+      <select required>
+        <option value="">Select a Service</option>
+        <option value="website">Website Development</option>
+        <option value="domain">Domain Registration</option>
+        <option value="starlink">Starlink Installation</option>
+      </select>
+      <textarea placeholder="Describe your requirements" required></textarea>
+      <button type="submit" class="btn">Place Order</button>
+    </form>
+  </section>
+
+  <section class="section" id="shop">
+    <h2>Digital Products</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Tech Product">
+        <h3>Pro Website Template</h3>
+        <p>$25</p>
+        <button class="btn add-to-cart" data-product-id="101" data-product-name="Pro Website Template">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Domain Bundle">
+        <h3>Premium Domain Bundle</h3>
+        <p>$50</p>
+        <button class="btn add-to-cart" data-product-id="102" data-product-name="Premium Domain Bundle">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="testimonials">
+    <h2>Customer Reviews</h2>
+    <blockquote>“LaunchNova built our entire digital presence. Excellent service and support!”</blockquote>
+    <blockquote>“Got our Starlink installed and domain registered without hassle. Highly recommend.”</blockquote>
+  </section>
+
+  <section class="section" id="blog">
+    <h2>News & Updates</h2>
+    <div class="card">
+      <h3>5 Tools Every Startup Needs in 2025</h3>
+      <p>Explore modern tech solutions to launch your business fast.</p>
+    </div>
+    <div class="card">
+      <h3>Starlink Expansion 2025</h3>
+      <p>New coverage areas announced – order installation today!</p>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Call or WhatsApp us at <strong>+267 77364072</strong></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 LaunchNova. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
